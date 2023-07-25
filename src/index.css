@@ -258,7 +258,7 @@ PROJECT CSS
 =============== 
 */
 body {
-  background: var(--primary-500);
+  background: var(--primary-400);
 }
 /* 
 ============= 
@@ -420,7 +420,6 @@ Nav Links
   .nav-links {
     display: flex;
     justify-content: center;
-
     align-self: stretch;
   }
   .nav-center {
@@ -452,7 +451,7 @@ Submenu
   .submenu {
     display: block;
     position: fixed;
-    top: 7rem;
+    top: 5rem;
     left: 50%;
     width: var(--fluid-width);
     max-width: var(--max-width);
